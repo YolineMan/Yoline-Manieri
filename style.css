@@ -1,0 +1,255 @@
+body{
+    background: linear-gradient(83deg, #3F0677, #000000);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+	} }
+
+	@-webkit-keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+	}
+
+	@-moz-keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+	}
+
+	@keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+}
+    @font-face {
+	font-family: 'Creattion Demo';
+	src: url("fonts/Creattion Demo.otf");
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size:1;
+}
+
+h1{
+	color: white;
+	font-size: 80px;
+    font-family: 'Creattion Demo';
+}
+
+h2{
+	color: white;
+	font-family: 'Creattion Demo';
+	font-size: 40px;
+}
+
+
+p{
+	color: white;
+	font-size: 16px;
+	font-family: 'Roboto';
+}
+
+
+a:hover{ 
+		color:grey;
+		font-size:50px;
+	}
+	
+#profile-picture-round{
+	width:232px;
+	height: :232px;
+	border-radius: 50%;
+}
+
+#profile-picture {
+	width: 150px;
+	height: :150px;
+	border-radius: 90%;
+}
+
+.list-inline{
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	text-align: center;
+}
+	li{
+		margin-bottom : 15px;
+		display: inline;
+		font-size: 50px;
+		margin: 10px;
+}
+
+
+div{
+	padding: 0px:;
+	margin:0px auto;
+	border-radius: 5px;
+	width:10px;
+}
+
+
+.card-white {
+	width: 300%;
+	padding:30px;
+	margin top: 1px;
+	margin: 20px;
+	height:  160px;
+	border-radius:0,15px 35px rgba(50, 50, 93, 1);
+}
+
+#cardone {
+	background-size: 50%;
+	position: center;
+	width: 80%;
+	height: 120%;
+	text-align: center;
+	padding-bottom:  5px;
+}
+
+
+.video-responsive iframe {
+	text-align:center;
+	margin:auto;
+	display:flex;
+	padding-top: 20px;
+}
+
+#video-responsive {
+	width: 100%;  
+	height: 150%;
+	display: flex;
+}
+
+
+#cardtwo {
+	background-image:url(image/cinema.jpg);
+	background-size: 220%;
+	background-position: left;
+
+}
+
+
+#cardfour{
+	background-image:url(image/reseau.jpg);
+	background-position:right;
+}
+
+
+
+
+
+#cardfive {
+	background-image: url(image/montage.jpg);
+	background-position: center;
+}
+
+#cardthree {
+	background-image: url(image/cadreur.jpg);
+	background-position: center;
+}
+
+.container {
+	background: red;
+	box-shadow: 0 15px 35px rgba(50,50,93,0);
+	width: 980px;
+	display: flex;
+  	align-items: center;
+ 	justify-content: space-between;
+  	min-height: 50vh;
+  	background-color: transparent;
+}
+
+.loader {
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  stroke-linecap: round;
+}
+
+
+.framed-words {
+	font-size:14px;;
+	padding:6px;
+	margin:2px;
+}
+
+#cardtwo.card-white p{
+	font-family: 'Roboto';
+	font-size:  15px;
+	text-align: center;
+}
+
+#cardtwo.card-white h2{
+	font-family: 'Creattion Demo';
+	font-size:  45px;
+	text-align: center;
+	margin: 5%;
+}
+
+#cardthree.card-white p{
+	font-family: 'Roboto';
+	font-size:  15px;
+	text-align: center;
+}
+
+#cardthree.card-white h2{
+	font-family: 'Creattion Demo';
+	font-size:  45px;
+	text-align: center;
+	margin: 5%;
+}
+
+#cardfive.card-white h2{
+	font-family: 'Creattion Demo';
+	font-size:  45px;
+	text-align: center;
+	margin: 5%;
+}
+
+#cardfive.card-white p{
+	font-family: 'Roboto';
+	font-size:  15px;
+	text-align: center;
+}
+
+#cardfour.card-white h2{
+	font-family: 'Creattion Demo';
+	font-size:  45px;
+	text-align: center;
+	margin: 5%;
+}
+
+
+
+/*media queries*/
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 300px;
+	}
+}
+
+@media (max-width: 700px) {
+	.cardone{
+		width: 300px;
+	}
+}
+
+@media(max-width: 500px) {
+	.cardone{
+		width: 200px;
+	}
+}
+
